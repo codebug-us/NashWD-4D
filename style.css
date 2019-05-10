@@ -1,3 +1,4 @@
+
 .container {
   border: 1px solid black;
   display: grid;
@@ -5,9 +6,30 @@
   grid-template-rows: repeat(4, 25%);
   height: 500px;
   width: 500px;
+  background-color: rgba(150,150,150,150);
   /*the line below centers the container*/
   margin: 0 auto;
 }
 .word {
   border: 1px solid black;
+  text-align: center;
 }
+body{
+	background: #c10fbb;
+	font-family: 'Permanent Marker', cursive;
+
+}
+
+.parallax { 
+  /* The image used */
+  background-image: url("osman-rana-332236-unsplash.jpg");
+
+  /* Set a specific height */
+  height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
