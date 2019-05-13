@@ -7,7 +7,15 @@
   width: 500px;
   /*the line below centers the container*/
   margin: 0 auto;
+  background-color: rgba(255,255,255,.5);
+  text-align: center;
+
 }
 .word {
   border: 1px solid black;
+  padding-top: 50px;
+}
+body{
+	background-color: #f4d442;
+	font-family: 'Indie Flower', cursive;
 }
