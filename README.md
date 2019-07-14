@@ -9,8 +9,8 @@
 * In the `style.css` file write code to make the background color of the whole page something pretty using a [hex color](https://www.google.com/search?q=hex+color+picker&oq=hex+color+picker&aqs=chrome..69i57j0l5.2831j0j1&sourceid=chrome&ie=UTF-8).
 * Put a header above the container, it should say something like "Hidden Messages"
 * Use a [google font](https://fonts.google.com/) to set the body `font-family` to something fancy.
-* Make the background color of the container a transparent color using `rgba()`
-* Center the words in the boxes.
+* Make the background color of the container a transparent color using `rgba()` using the class `container`.
+* Center the words in the boxes using the class `word`.
 
 #### Okay, let's get into the jQuery:
 * On the line after the `$(document).ready(function(){ ` write `console.log("page is loaded");`, then refresh the webpage and look for your message in the console.
